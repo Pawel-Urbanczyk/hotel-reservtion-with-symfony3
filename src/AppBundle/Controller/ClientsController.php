@@ -12,32 +12,32 @@ class ClientsController extends Controller
 
 
     /**
-     * @Route("/clients", name="index_clients")
-     */
+     * @Route("/guests", name="index_clients")
+     **/
     public function showIndex()
     {
-        
+
         return $this->render('clients/index.html.twig');
-        
-    }
-
-    /**
-     * @Route("/clients/modify", name"modify_clients")
-     */
-    public function showDetails()
-    {
-
-        return ;
 
     }
-
-    /**
-     * @Route("/clients/new" name="new_client")
-     */
-    public function showNew()
-    {
-
-        
-    }
+//
+//    /**
+//     * @Route("/guests/modify/", name="modify_client")
+//     **/
+//    public function showDetails()
+//    {
+//
+//
+//
+//    }
+//
+//    /**
+//     * @Route("/guests/new" name="new_client")
+//     **/
+//    public function showNew()
+//    {
+//
+//
+//    }
 
 }
