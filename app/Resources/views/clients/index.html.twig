@@ -20,8 +20,8 @@
                 <td>{{ client.title | capitalize }}. {{ client.name }} {{ client.last_name }}</td>
                 <td>{{ client.email }}</td>
                 <td>
-                  <a class="hollow button" href="/client/edit/1">EDIT</a>
-                  <a class="hollow button warning" href="{{ path("booking", {'id_client':1}) }}">BOOK A ROOM</a>
+                  <a class="hollow button" href="{{ path("modify_client", {'id_client': client.id}) }}">EDIT</a>
+                  <a class="hollow button warning" href="{{ path("booking", {'id_client': client.id}) }}">BOOK A ROOM</a>
                 </td>
               </tr>
             {% endfor %}

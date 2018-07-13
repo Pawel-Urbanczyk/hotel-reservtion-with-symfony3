@@ -1,4 +1,4 @@
-landon_app
-==========
+Hotel reservation app
+=====================
 
-A Symfony project created on January 4, 2017, 4:05 am.
+A Symfony project based on version 3.4.12
